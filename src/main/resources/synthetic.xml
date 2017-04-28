@@ -21,7 +21,7 @@
 
 	<type type="obiee.rpd" extends="udm.BaseDeployedArtifact"
 	      deployable-type="obiee.rpdspec"
-	      container-type="obiee.Container"
+	      container-type="obieerpd.Container"
 	      description="Deployed xml to a obiee container">
 		<generate-deployable type="obiee.rpdspec" extends="udm.BaseDeployableFileArtifact"/>
 		<property name="UDMLtargetPath" kind="string" required="true" description="UDML Output target path" />
